@@ -1,0 +1,47 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,141,86)
+  Resizable = False
+  Arrangement = Arrange.Vertical
+  Spacing = True
+  Margin = True
+  { TextLabel1 TextLabel
+    MoveScaled(3,2,47,9)
+    Text = ("Use this form to add and remove stock items from your database.\nChoose first the item type and then the specific item from the relvant drop-down boxes.")
+  }
+  { Label1 Label
+    MoveScaled(3,12,13,5)
+    Text = ("Item Type")
+  }
+  { comboboxItemtype ComboBox
+    MoveScaled(17,12,29,6)
+    Text = ("Choose your Item type here")
+  }
+  { Label2 Label
+    MoveScaled(2,23,12,6)
+    Text = ("Specific Item")
+  }
+  { combobxSpecific ComboBox
+    MoveScaled(17,24,29,6)
+    Text = ("dependant on the Item Type chosen")
+  }
+  { HBox1 HBox
+    MoveScaled(76,80,62,4)
+    Spacing = True
+    { Panel1 Panel
+      MoveScaled(4,0,4,4)
+      Expand = True
+    }
+    { btnOK Button
+      MoveScaled(29,0,16,4)
+      Text = ("OK")
+      Default = True
+    }
+    { btnCancel Button
+      MoveScaled(46,0,16,4)
+      Text = ("Cancel")
+      Cancel = True
+    }
+  }
+}

@@ -1,0 +1,29 @@
+' Gambas class file
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub ButtonLogin_Click()
+
+Form_Login.Open()  
+
+End
+
+Public Sub ButtonRegister_Click()
+
+Register.form_Activate()
+  
+
+End
+
+Public Sub ButtonExit_Click()
+
+ Application.Close()
+  
+
+End

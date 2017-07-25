@@ -1,0 +1,12 @@
+[Breakpoints]
+Count=0
+
+[OpenFile]
+File[1]=".src/Register.form"
+File[2]=".src/Register.class:26.0"
+File[3]=".src/FMain.form"
+File[4]=".src/FMain.class:25.1"
+Active=5
+File[5]=".src/Main.form"
+Count=5
+

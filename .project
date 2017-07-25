@@ -1,0 +1,12 @@
+# Gambas Project File 3.0
+Title=Stock_Controller
+Startup=FMain
+Component=gb.db
+Component=gb.vb
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+Component=gb.db.form
+ControlPublic=1
+ModulePublic=1
+

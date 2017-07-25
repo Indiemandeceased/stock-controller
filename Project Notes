@@ -1,0 +1,3 @@
+24/07/17 Started using Gambas 3 for GUI application titled Stock Control.
+Built header page with login register and exit buttons code written to
+move on through application with register and login form.

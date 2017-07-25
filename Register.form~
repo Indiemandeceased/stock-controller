@@ -1,0 +1,55 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,76,37)
+  Resizable = False
+  Arrangement = Arrange.Vertical
+  Spacing = True
+  Margin = True
+  { TextLabel1 TextLabel
+    MoveScaled(5,2,65,8)
+    Text = ("Please enter your details below and press OK. \nBe sure to record your password somewhere.")
+  }
+  { Label1 Label
+    MoveScaled(2,9,12,5)
+    Text = ("Name:")
+  }
+  { txtbxFullName TextBox
+    MoveScaled(14,10,43,4)
+    Text = ("Enter Full Name Here:")
+  }
+  { Label2 Label
+    MoveScaled(2,15,11,5)
+    Text = ("Username:")
+  }
+  { Label3 Label
+    MoveScaled(2,21,11,4)
+    Text = ("Password:")
+  }
+  { txtbxPsswd TextBox
+    MoveScaled(14,21,43,5)
+    Text = ("Enter Password Here:")
+  }
+  { HBox1 HBox
+    MoveScaled(2,27,62,4)
+    Spacing = True
+    { Panel1 Panel
+      MoveScaled(4,0,4,4)
+      Expand = True
+    }
+    { btnOK Button
+      MoveScaled(29,0,16,4)
+      Text = ("OK")
+      Default = True
+    }
+    { btnCancel Button
+      MoveScaled(46,0,16,4)
+      Text = ("Cancel")
+      Cancel = True
+    }
+  }
+  { txtbxUser TextBox
+    MoveScaled(14,15,43,5)
+    Text = ("Enter Username Here.")
+  }
+}

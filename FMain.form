@@ -1,0 +1,21 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,38,52)
+  { LabelSignin Label
+    MoveScaled(2,1,28,11)
+    Text = ("Welcome to the Stock Controller.\nPlease Login or Register to continue.")
+  }
+  { ButtonLogin Button
+    MoveScaled(2,16,25,9)
+    Text = ("Login")
+  }
+  { ButtonRegister Button
+    MoveScaled(2,28,25,9)
+    Text = ("Register")
+  }
+  { ButtonExit Button
+    MoveScaled(2,40,25,9)
+    Text = ("Exit")
+  }
+}
